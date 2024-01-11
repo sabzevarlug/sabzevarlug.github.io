@@ -93,7 +93,7 @@ exclude:
 
 # Plugins
 plugins:
-  # - jekyll-feed
-  # - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-postfiles
   - jekyll-jalali
