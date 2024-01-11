@@ -5,7 +5,6 @@ _site/
 .jekyll-metadata
 _drafts
 simorq-*.gem
-Gemfile.lock
 .sass-cache/
 .bundle
 *~
@@ -16,6 +15,3 @@ env.sh
 .envrc
 .netlify
 .direnv
-
-.DS_Store
-.DS_Store
