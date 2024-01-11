@@ -1,18 +1,5 @@
-## Description: This code sets up the development tools for a Ruby Jekyll project on macOS. 
-## It installs Homebrew, Ruby, and Jekyll, and then sets up the necessary environment variables.
-
-
-### Install rben and ruby-build
-```
-brew install rbenv ruby-build
-```
-
-### Add rbenv to zsh so that it loads every time you open a terminal
-```
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
-```
-
-### Install Ruby
-```
-rbenv install 3.1.3
-```
+# Sabzevar Lug (Linux User Group) Official Website
+## Feel free to take a look to the code
+----
+Read [this](https://jekyllrb.com/docs/posts/) if you want to write a post
+----
