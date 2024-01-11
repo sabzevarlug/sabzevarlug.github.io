@@ -6,15 +6,15 @@
   url: /archive/
   external: false
 
-- title: پشتیبانی
-  url: /support/
+- title: رویداد ها
+  url: /events/
   external: false
 
 - title: برچسب‌ها
   url: /tags/
   external: false
 
-- title: درباره
+- title: درباره ما
   url: /about/
   external: false # set true if you using external link, see below
 
