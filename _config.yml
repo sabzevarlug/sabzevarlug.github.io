@@ -32,7 +32,7 @@ author:
 
 # URL settings
 url: "https://sabzevarlug.ir/" # your domain 
-baseurl: "https://sabzevarlug.ir/"
+baseurl: ""
 permalink: /:title/
 #google_analytics: 
 fb_appid:
