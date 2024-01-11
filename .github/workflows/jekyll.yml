@@ -52,3 +52,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           artifact: jekyll-site
+          path: _site
