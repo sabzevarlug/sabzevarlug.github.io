@@ -15,3 +15,5 @@ env.sh
 .envrc
 .netlify
 .direnv
+.DS_Store*
+.DS_Store/*
