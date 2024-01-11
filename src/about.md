@@ -1,11 +1,11 @@
 ---
-title: Borna
+title: Sabzevar Lug (Linux User Group)
 permalink: /about/
 layout: page
-excerpt: borna
+excerpt: SabzevarLug
 comments: false
 ---
 
 # برنا 
 
-فناوری برنا 
+Sabzevar Lug (Linux User Group) 
