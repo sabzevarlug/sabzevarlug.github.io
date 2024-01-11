@@ -1,9 +1,9 @@
 # Site settings
 
 source: src
-title: Borna  # site title
+title: Sabzevar LUG  # site title
 description: >- # site description
-  Borna 
+  Sabzevar Lug (Linux User Group) 
 lang: fa # default lang
 timezone: Asia/Tehran # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -11,14 +11,14 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Borna Technologies # author name
+  name: SabzevarLug # author name
   bio: >- # tell to the world
-    borna
+    Sabzevar Lug (Linux User Group)
        
-    <a href="https://t.me/" target="_blank" rel="noopener">لینک کانال تلگرام</a>.
+    <a href="https://t.me/sabzevarlug" target="_blank" rel="noopener">لینک کانال تلگرام</a>.
 
-  #username:  bornatech # general username
-  # github: your_github_username # github username
+  username: sabzevarlug # general username
+  github: sabzevarlug # github username
   # twitter: your_twitter_username # twitter username
   # you can add your accounts of other social media  but you need to edit footer.html in _includes directory and add other sosial media links based on existing  templates
   
@@ -27,14 +27,14 @@ author:
   # mastodon: # mastodon urls
   #   first: https://your_instance.address/@your_username
   #   second: 
-  email: info@borna.com
-  avatar: /assets/img/avatar.png # change with your own avatar
+  email: lugsabzevar@gmail.com
+  avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://" # your domain 
+url: "https://sabzevarlug.ir/" # your domain 
 baseurl: ''
 permalink: /:title/
-google_analytics: ca-pub-7573804673324739
+#google_analytics: 
 fb_appid:
 
 # Collection setting
@@ -93,7 +93,7 @@ exclude:
 
 # Plugins
 plugins:
-  # - jekyll-feed
-  # - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-postfiles
   - jekyll-jalali
