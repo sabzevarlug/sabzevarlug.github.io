@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: SabzevarLug # author name
+  name: Sabzevar Lug # author name
   bio: >- # tell to the world
     Sabzevar Lug (Linux User Group)
        
@@ -19,6 +19,7 @@ author:
 
   username: sabzevarlug # general username
   github: sabzevarlug # github username
+  telegram: https://t.me/sabzevarlug
   # twitter: your_twitter_username # twitter username
   # you can add your accounts of other social media  but you need to edit footer.html in _includes directory and add other sosial media links based on existing  templates
   
