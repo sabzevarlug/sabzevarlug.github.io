@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+    jekyll:
+        image: jekyll/jekyll:latest
+        container_name: lug-blog
+        command: jekyll serve --watch --force_polling --verbose
+        ports:
+          - "${APP_PORT}:4000"
+        volumes:
+            - .:/srv/jekyll
