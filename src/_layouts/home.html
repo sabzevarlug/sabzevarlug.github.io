@@ -13,7 +13,7 @@ home: true
     <time
       datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ post.date | jdate: date_format }}
   </span>
-  <h4 class="post-item-title" style="margin-right: 10px; margin-top: 10px;;">
+  <h4 class="post-item-title" style="margin-right: 10px; margin-top: 7px;;">
     <a href="{{ post.url }}">{{ post.title | escape }}</a>
   </h4>
 </article>
