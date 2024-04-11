@@ -1,14 +1,16 @@
 ---
+title: 'جلسات و نشست‌های لاگ'
 permalink: /events/
-layout: page
+layout: default
 excerpt: All post.
 comments: false
 ---
 
-{%- for post in site.posts -%}
-<article class="post-item">
-  <span class="post-item-date">
-    <i class="fa fa-calendar" style="color: #51d994; margin-left: 10px;"></i>
+<div class="wrapper" style="margin-top: 50px;">
+  {%- for post in site.posts -%}
+  <article class="post-item">
+    <span class="post-item-date">
+      <i class="fa fa-calendar" style="color: #51d994; margin-left: 10px;"></i>
     <time datetime="{{ post.date | date_to_xmlschema }}">
       {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ post.date | jdate: date_format }}
     </time>
@@ -18,3 +20,4 @@ comments: false
   </h4>
 </article>
 {%- endfor -%}
+</div>
