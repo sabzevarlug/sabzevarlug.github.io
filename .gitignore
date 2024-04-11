@@ -18,3 +18,4 @@ env.sh
 .direnv
 .DS_Store*
 .DS_Store/*
+/.vscode
