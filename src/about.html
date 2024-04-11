@@ -1,0 +1,19 @@
+---
+title: 'ارتباط با راهبران لاگ'
+permalink: /about/
+layout: default
+excerpt: SabzevarLug
+comments: false
+---
+
+<div class="container" style="margin-top: 50px;">
+    <div class="row text-center">
+        {%- for leader in site.data.about.leaders -%}
+        <div class="col-4 p-2">
+            <img class="rounded-3 mb-2 w-75" src="{{ leader.image }}" alt="{{ leader.name }}" />
+            <h2>{{ leader.name }}</h2>
+            <p>{{ leader.role }}</p>
+        </div>
+        {%- endfor -%}
+    </div>
+</div>

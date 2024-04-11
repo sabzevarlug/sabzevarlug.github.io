@@ -1,0 +1,25 @@
+title: "ارتباط با راهبران لاگ"
+permalink: /about/
+layout: default
+excerpt: SabzevarLug
+comments: false
+leaders:
+  [
+    {
+      name: "امیر آبرون",
+      image: "/assets/img/leaders/amirabroun.jpg",
+      role: "مدیریت و هماهنگی لاگ",
+    },
+    {
+      name: "امین عبیری",
+      image: "/assets/img/leaders/aminabiri.jpg",
+      role: "ایده پرداز و مدیر رسانه",
+    },
+    {
+      name: "کیومرث جوان",
+      image: "/assets/img/leaders/kiumarsjavan.jpg",
+      role: "بررسی ایده ها و محتواهای ارائه در جلسات",
+    },
+  ]
+---
+
