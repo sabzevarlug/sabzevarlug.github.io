@@ -1,7 +1,7 @@
 # Site settings
 
 source: src
-title: Sabzevar LUG  # site title
+title: 'لاگ سبزوار - Sabzevar Lug'  # site title
 description: >- # site description
   Sabzevar Lug (Linux User Group) 
 lang: fa # default lang
@@ -11,9 +11,9 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Sabzevar Lug # author name
+  name: 'لاگ سبزوار - Sabzevar Lug' # author name 
   bio: >- # tell to the world
-    Sabzevar Lug (Linux User Group)
+    وبسایت رسمی گروه کاربران لینوکس سبزوار
   username: sabzevarlug # general username
   github: sabzevarlug # github username
   telegram: https://t.me/sabzevarlug
