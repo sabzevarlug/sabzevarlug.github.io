@@ -10,15 +10,6 @@
   url: /events/
   external: false
 
-- title: برچسب‌ها
-  url: /tags/
-  external: false
-
 - title: درباره ما
   url: /about/
   external: false # set true if you using external link, see below
-
-# Example:
-# - title: github
-#   url: https://github.com/mhdzli/simorq
-#   external: true

@@ -7,18 +7,20 @@ leaders:
   [
     {
       name: "امیر آبرون",
+      github: "https://github.com/amirabroun",
+      telegram: "https://t.me/Amir_Abroun",
       image: "/assets/img/leaders/amirabroun.jpg",
-      role: "مدیریت و هماهنگی لاگ",
     },
     {
       name: "امین عبیری",
       image: "/assets/img/leaders/aminabiri.jpg",
-      role: "ایده پرداز و مدیر رسانه",
+      telegram: "https://t.me/aminabiri81",
     },
     {
       name: "کیومرث جوان",
+      site: "https://kiumarsj.ir",
+      linkedin: "https://www.linkedin.com/in/kiumarsj",
       image: "/assets/img/leaders/kiumarsjavan.jpg",
-      role: "بررسی ایده ها و محتواهای ارائه در جلسات",
     },
   ]
 ---

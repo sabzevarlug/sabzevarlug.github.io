@@ -12,7 +12,25 @@ comments: false
         <div class="col-4 p-2">
             <img class="rounded-3 mb-2 w-75" src="{{ leader.image }}" alt="{{ leader.name }}" />
             <h2>{{ leader.name }}</h2>
-            <p>{{ leader.role }}</p>
+
+            {% if leader.site %}
+            وبسایت : <a href="{{ leader.site }}">{{ leader.site }}</a>
+            <br>
+            {% endif %}
+
+            {% if leader.github %}
+            گیتهاب : <a href="{{ leader.github }}">{{ leader.github }}</a>
+            <br>
+            {% endif %}
+            
+            {% if leader.telegram %}
+            تلگرام : <a href="{{ leader.telegram }}">{{ leader.telegram }}</a>
+            <br>
+            {% endif %}
+
+            {% if leader.linkedin %}
+            لینکدین : <a href="{{ leader.linkedin }}">{{ leader.linkedin }}</a>
+            {% endif %}
         </div>
         {%- endfor -%}
     </div>
